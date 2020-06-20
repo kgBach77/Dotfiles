@@ -1,0 +1,5 @@
+Xft.dpi: 	180
+URxvt*font:	xft:Iosevka:size=13
+URxvt.scrollBar:	false
+URxvt*transparent:	true
+URxvt*shading: 		37

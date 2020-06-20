@@ -1,0 +1,1 @@
+{Intel Open Source Technology Center/Mesa DRI Intel(R) HD Graphics 520 (SKL GT2)/4.6 (Core Profile) Mesa 20.0.0-rc1}=SUPPORTED
