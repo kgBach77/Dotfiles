@@ -1,0 +1,55 @@
+* Week 1 
+** TODO <2020-06-23 Tue> Reading BJP 1
+** TODO <2020-06-24 Wed> PS1, part 1
+** TODO <2020-06-25 Thu> PS1, Part 2
+*** TODO Reading BJP 2, 4.1
+
+* Week 2
+** TODO <2020-06-29 Mon> PS2, part 1
+*** TODO Reading BJP 3
+** TODO <2020-06-30 Tue> PS2, part 2 due
+** TODO <2020-07-01 Wed> Reading BJP 4
+** TODO <2020-07-02 Thu> Unit Test 1 & 2
+*** Reading 5.1-4
+
+* Week 3
+** TODO <2020-07-06 Mon> PS3, part 1
+*** TODO Reading BJP 7
+** TODO <2020-07-07 Tue> PS3, part 2
+*** TODO Reading BJP 6
+** TODO <2020-07-08 Wed> Reading BJP 12
+** TODO <2020-07-09 Thu> PS4, part 1
+*** TODO Reading BJP 8
+
+* Week 4
+** TODO <2020-07-13 Mon> PS4, part 2
+*** TODO Reading BJP 9
+*** TODO Reading BJP 9
+** TODO <2020-07-15 Wed> PS5, part 1
+** TODO <2020-07-16 Thu> Unit test 3 & 4
+*** TODO Reading L1
+** TODO <2020-07-17 Fri> PS5, part 2
+*** TODO Reading L6
+* Week 5
+** TODO <2020-07-20 Mon> PS6, part 1
+*** TODO Reading L2,3,7 (B13)
+** TODO <2020-07-22 Wed> PS6, part 2
+** TODO <2020-07-23 Thu> Reading L4, 5 (B16, 15)
+** TODO <2020-07-24 Fri> PS7, part 1
+*** TODO Unit test 5 & 6
+*** TODO Reading B14
+* Week 6
+** TODO <2020-07-27 Mon> PS7, part 2
+*** TODO Reading L2, 3, 7 (B13)
+** TODO <2020-07-28 Tue> PS8, part 1
+*** TODO Reading L10
+** TODO <2020-07-30 Thu> PS8, part 2
+*** TODO Reading L12 (B18)
+** TODO <2020-07-31 Fri> PS9, part 1
+*** Reading L11
+* Week 7
+** TODO <2020-08-03 Mon> PS9, part 2 
+*** TODO Unit Test 7 & 8
+*** TODO Reading L13
+** TODO <2020-08-05 Wed> PS10 Due
+** TODO <2020-08-07 Fri> FINAL EXAM 8:30 - 11:30

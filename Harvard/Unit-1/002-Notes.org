@@ -1,0 +1,38 @@
+* Unit 2 - Basic Java Programming
+Naming conventions for identifiers
++ Capitalize class names
+  + HelloWorld
++ Do not capitalize method names
+  + main
++ Capitalize internal words within the name
+  + Hello/W/orld
+
+- System.out.println(" ");
+  + A piece of text like "hello world" is a /string literal/
+    - Meaning it is of type string and /hard coded/ into the program
+
+  + A string literal must be enclosed in double quotes ""
+  + Can print a blank line by omitting the string literal
+    - Just System.out.println();
+
+
+- String Literals cannot span two lines
+  + /Not allowed/ =System.out.println("I want to print a string=
+                  =on two lines");=
+  + Instead use: System.out.println("I want to print a string");
+                 System.out.println("on two lines");
+		 
+		 + ~Does adding \n also work?~
+		   - Yes, \n inserts a new line
+- println vs print :
+  + println - moves to the next line after printing,
+    think of as adding a \n char to the end of everything
+    by default
+  
+  + print - just like regular printf function in C,
+    does not add any newline char
+
+- Escape char \
+  
+  + Used to add 'forbidden' characters in print/println
+  + \" for ", \n as newline, \t as tab, \\ as \
