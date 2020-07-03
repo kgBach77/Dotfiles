@@ -1,0 +1,242 @@
+((("charAt" .
+   [1 0 0 0 0 0])
+  ("output" .
+   [4 0 0 0 0 0])
+  ("max" .
+   [2 0 0])
+  ("sharedPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("min" .
+   [5 0 0])
+  ("length" .
+   [5 0 0 0 0 0])
+  ("str2" .
+   [3 0 0 0])
+  ("str1" .
+   [3 0 0 0])
+  ("dashboard-center-content" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("drawRoof" .
+   [1 0 0 0 0 0 0 0])
+  ("colons" .
+   [3 0 0 0 0 0])
+  ("draw" .
+   [1 0 0 0])
+  ("line" .
+   [7 0 0 0])
+  ("println" .
+   [12 0 0 0 0 0 0])
+  ("out" .
+   [14 0 0])
+  ("System" .
+   [17 0 0 0 0 0])
+  ("define-key" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("public" .
+   [5 0 0 1 0 1])
+  ("class" .
+   [2 0 0 0 0])
+  ("wordBreak" .
+   [0 0 0 0 0 1 0 0 0])
+  ("static" .
+   [3 0 0 0 0 1])
+  ("void" .
+   [3 0 0 1])
+  ("main" .
+   [2 0 0 0])
+  ("String" .
+   [3 0 0 1 0 0])
+  ("args" .
+   [3 0 0 0])
+  ("setq" .
+   [29 0 0 0])
+  ("c-basic-offset" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("tab-width" .
+   [0 0 0 0 0 0 1 0 3])
+  ("setq-default" .
+   [2 0 0 0 0 0 0 0 0 0 0 1])
+  ("indent-tabs-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("require" .
+   [2 0 0 0 0 0 0])
+  ("org-latex" .
+   [2 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 0 0 3])
+  ("org-src-fontify-natively" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [1 0 0])
+  ("set-face-attribute" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("nil" .
+   [4 0 0])
+  (":height" .
+   [1 0 0 0 0 0 0])
+  ("fill" .
+   [1 0 0 0])
+  ("fill-column" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("t" .
+   [1])
+  ("org-latex-packages-" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("org-latex-packages-alist" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 2])
+  ("org-latex-listings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("minted" .
+   [1 0 0 0 0 0])
+  ("sh" .
+   [1 0])
+  ("flag" .
+   [1 0 0 0])
+  ("org-latex-pdf-process" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("pdflatex" .
+   [2 0 0 0 0 0 0 0])
+  ("org-latex-minted-options" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("font" .
+   [1 0 0 0])
+  ("head" .
+   [1 0 0 0])
+  ("header" .
+   [1 0 0 0 0 0])
+  ("packages" .
+   [1 0 0 0 0 0 0 0])
+  ("AUTO" .
+   [2 0 0 0])
+  ("a" .
+   [1])
+  ("add" .
+   [1 0 0])
+  ("po" .
+   [1 0])
+  ("user-full-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("user-mail-address" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("calendar" .
+   [1 0 0 0 0 0 0 1])
+  ("kill-buffer-query-functions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("remq" .
+   [1 0 0 0])
+  ("process-kill-buffer-query-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defvaralias" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("indentation" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("-remove-item" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("org-latex-default-package-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("add-to-" .
+   [0 0 0 0 0 0 1])
+  ("lines" .
+   [8 0 0 0 0])
+  ("semicolon" .
+   [2 0 0 0 0 0 0 0 0])
+  ("print" .
+   [5 0 0 0 0])
+  ("tool-bar-map" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("tool-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("menu-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scroll" .
+   [1 0 0 0 0 0])
+  ("scroll-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ring-bell-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ignore" .
+   [1 0 0 0 0 0])
+  ("locale-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("set-terminal-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("utf-8" .
+   [1 0 0 0 2])
+  ("set-keyboard-coding-system" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-selection-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("prefer-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("when" .
+   [1 0 0 0])
+  ("window-system" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("prog-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("hl-line-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  (":" .
+   [1])
+  (":configuration-error" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Dashboard" .
+   [0 0 0 0 0 0 0 0 1])
+  (":ensure" .
+   [1 0 0 0 0 0 0])
+  ("c" .
+   [1])
+  (":config" .
+   [1 0 0 0 0 0 0])
+  ("display" .
+   [1 0 0 0 0 0 0])
+  ("display-time-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Scanner" .
+   [4 0 0 0 0 0 0])
+  ("console" .
+   [12 0 0 0 0 0 0])
+  ("getShippingType" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("getItemType" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("printf" .
+   [1 0 0 0 0 0])
+  ("nextInt" .
+   [3 0 0 0 1 1 0])
+  ("totalCost" .
+   [2 0 0 0 0 0 0 0 0])
+  ("shippingType" .
+   [11 0 0 0 0 0 0 0 0 1 0 0])
+  ("in" .
+   [2 0])
+  ("itemType" .
+   [16 0 0 0 0 1 0 1])
+  ("shipping" .
+   [1 0 0 0 0 0 0 0])
+  ("calculateShipping" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("item" .
+   [3 0 0 0])
+  ("weight" .
+   [2 0 0 0 0 0])
+  ("calculateAdditionalCosts" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("itemWeight" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("System.out.println" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Tminus" .
+   [2 0 0 0 0 0])
+  ("Unit" .
+   [1 0 0 0])
+  ("mult" .
+   [4 0 0 0])
+  ("num" .
+   [1 0 0])))
