@@ -6,10 +6,11 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
-;; Initialize Org-mode and set related keybindings
+;; Custom Keybindings and Org-init
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-agenda-files (list "~/org"))
+(global-set-key (kbd "C-x g") 'magit-status)
 
 
 ;;;;---- Basic interface settings ----;;;;
@@ -47,9 +48,8 @@
 ;; Hightlight current line
 (when window-system (add-hook 'prog-mode-hook 'hl-line-mode))
 
-;; Load Dracula theme
+;; Load custom themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-;; (load-theme 'jetbrains-darcula t)
 
 ;; Window navigation keybindings
 (windmove-default-keybindings)
@@ -85,12 +85,14 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes (quote (jetbrains-darcula)))
+ '(custom-enabled-themes (quote (birds-of-paradise-plus)))
  '(custom-safe-themes
    (quote
-    ("db772d32fdcc49ff5a18f3a027ae67ec3f76e62d4303decbe7fb2769803bad4d" "698d072bc75860ae449ac55c138e9a0d0e125c3cb58149238470e598ab9fae0d" default)))
- '(org-agenda-files (quote ("~/org/")) t)
- '(package-selected-packages (quote (flycheck auto-complete lsp-treemacs))))
+    ("e0248214be7dbd262651ebeb55bb40f139821869874536dce9ad58578929eeff" "95a77bbbcf82eac085844f8f2d11e7196cf88748a145316ac84525e4516c3ff8" "db772d32fdcc49ff5a18f3a027ae67ec3f76e62d4303decbe7fb2769803bad4d" "698d072bc75860ae449ac55c138e9a0d0e125c3cb58149238470e598ab9fae0d" default)))
+ '(org-agenda-files (quote ("~/org/")))
+ '(package-selected-packages
+   (quote
+    (magit elfeed-org flycheck auto-complete lsp-treemacs))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -123,3 +125,7 @@
 ;; Use syntax highlight in source blocks
 (setq org-src-fontify-natively t)
 
+;;;; Code formatting ;;;;
+
+;; Always use electric-pair-mode (Auto bracket completion)
+(add-hook 'prog-mode-hook 'electric-pair-mode)
