@@ -1,9 +1,8 @@
-# A program to unpack my dotfiles on a new system.
-# Mostly to just move around my emacs packages to
-# get a new environment working easier
+# ./bin/bash
+# Is this really it?
 
-# Take all the files in the Dotfiles directory and copy them to the home directory,
-# overriding anything that is already there.
-# Then restart bash
-# cp * ~/
+# Move dotfiles into home directory and prompt when replacing
+mv -i . "/home/$(whoami)"
 
+# Restart bash with new .bashrc file
+source ~/.bashrc
