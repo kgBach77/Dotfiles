@@ -10,19 +10,34 @@
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)
 
-
+(setq package-emable-at-startup nil)
 (package-initialize)
 
-(when(not package-archive-contents)
-  (package-refresh-contents))
+
+
 
 ;; Initialize Org-mode and set related keybindings
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-agenda-files (list "~/org/Homework.org"))
 
+;; delete
+(setq package-check-signature nil)
 
 ;;;;---- Basic interface settings ----;;;;
+
+;; Dashboard
+(require 'dashboard)
+(dashboard-setup-startup-hook)
+
+(setq dashboard-startup-banner "~/.emacs.d/img/dashLogo.png")
+
+(setq dashboard-center-content t)
+(setq dashboard-items '((recents . 7)
+                        (projects . 7)
+                        (agenda . 7)))
+(setq dashboard-banner-logo-title "")
+
 
 ;; Emacs Transparency (disbaled on Windows PC)
 ;; (set-frame-parameter (selected-frame) 'alpha '(85 . 50))
@@ -76,23 +91,6 @@
 ;; Set default column width
 (setq-default fill-column 80)
 
-;; Dashboard
-(require 'dashboard)
-(dashboard-setup-startup-hook)
-
-(setq dashboard-startup-banner "~/.emacs.d/img/dashLogo.png")
-
-(setq dashboard-center-content t)
-(setq dashboard-items '((recents . 7)
-                        (projects . 7)
-                        (agenda . 7)))
-(setq dashboard-banner-logo-title "")
-
-;; Clock
-(setq display-time-24hr-format t)
-(setq display-time-format "%H:%M - %d %B %Y")
-(setq display-time-mode 1)
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -114,7 +112,7 @@
  '(org-agenda-files nil)
  '(package-selected-packages
    (quote
-    (elpy powerline gruvbox-theme rustic htmlize easy-jekyll weblogger flycheck-clangcheck flycheck-haskell flycheck-rust haskell-emacs pdf-tools rust-mode javap-mode php-mode haskell-mode switch-window ivy use-package fancy-battery origami magit eww-lnum flycheck auto-complete lsp-treemacs)))
+    (gnu-elpa-keyring-update elpy powerline  rustic htmlize easy-jekyll weblogger flycheck-clangcheck flycheck-haskell flycheck-rust pdf-tools rust-mode javap-mode haskell-mode switch-window ivy use-package fancy-battery magit eww-lnum flycheck auto-complete lsp-treemacs)))
  '(pdf-view-midnight-colors (quote ("#fdf4c1" . "#32302f"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -122,6 +120,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; This should automatically download any packages not already installed
+(package-refresh-contents)
+(package-install-selected-packages)
 
 
 ;;;; Org-mode settings
