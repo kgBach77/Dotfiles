@@ -1,12 +1,27 @@
 Packages
---------
-net-misc/networkmanager
+------
+
+--= Wireless =--
 app-misc/livecd-tools
+net-misc/networkmanager USE="bluetooth elogind"
+gnome-extra/nm-applet
+
+--= Window Manager =--
 x11-base/xorg-x11
 x11-wm/bspwm
 x11-misc/sxhkd
-gnome-extra/nm-applet
-media-fonts/iosevka
-app-shells/rxvt-unicode
-dev-vcs/git
+x11-misc/i3lock
 x11-misc/dmenu
+app-misc/ranger
+
+--= Terminal Emulator =--
+app-shells/rxvt-unicode
+
+--= Programs =--
+app-editors/emacs USE="xft libxml2 inotify jpeg imagemagick -gtk alsa"
+www-client/firefox USE="hwaccel"
+dev-vcs/git
+
+--= Programming language support =--
+dev-lang/go
+dev-haskell/stack

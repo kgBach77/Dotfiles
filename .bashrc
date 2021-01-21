@@ -14,11 +14,8 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 # Put your fun stuff here.
-alias pc="!!"
 alias bash-reload="source ~/.bashrc"
-alias cs="cd $1; ls"
 
 alias hermes-ssh="ssh kyle@75.83.87.218 -p 53292"
 alias hermes-vnc="ssh -L 5901:localhost:5901 -N -f -p 53292 -l kyle 75.83.87.218"
@@ -26,27 +23,7 @@ alias hermes-vnc="ssh -L 5901:localhost:5901 -N -f -p 53292 -l kyle 75.83.87.218
 alias dionysus-vnc="ssh -L 5801:localhost:5801 -N -f -p 53291 -l kyle 75.83.87.218"
 alias dionysus-ssh="ssh kyle@75.83.87.218 -p 53291"
 
-function mcd(){
-	
-	mkdir $1
-	cd $1
-}
-
-
-function ccompile(){
-	
-	gcc $1 -o $2
-	./$2
-}
-
-# Copies a C template file into the current directory and renames it
-# to parameter 1
-function cbase(){
-	
-	cp /home/kyle/Files/Cbase/cbase.c  $(pwd)
-	mv cbase.c $1
-	
-}
+alias github="cd ~/GitHub"
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 neofetch
