@@ -13,9 +13,6 @@
 (setq package-emable-at-startup nil)
 (package-initialize)
 
-
-
-
 ;; Initialize Org-mode and set related keybindings
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
@@ -43,7 +40,7 @@
 ;; (set-frame-parameter (selected-frame) 'alpha '(85 . 50))
 
 ;; Set default font
-(set-frame-font "IBM Plex Mono Text-12.0" nil t)
+;;(set-frame-font "IBM Plex Mono Text-12.0" nil t)
 
 ;; Powerline
 (require 'powerline)
@@ -86,7 +83,7 @@
 
 
 ;; Change font size for ultrawide
-(set-face-attribute 'default nil :height 120)
+(set-face-attribute 'default nil :height 140)
 
 ;; Set default column width
 (setq-default fill-column 80)
@@ -103,16 +100,17 @@
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(ansi-term-color-vector
    [unspecified "#1F1611" "#660000" "#144212" "#EFC232" "#5798AE" "#BE73FD" "#93C1BC" "#E6E1DC"])
- '(custom-enabled-themes (quote (Seventies)))
+ '(custom-enabled-themes (quote (suscolors)))
  '(custom-safe-themes
    (quote
-    ("b89ae2d35d2e18e4286c8be8aaecb41022c1a306070f64a66fd114310ade88aa" "939ea070fb0141cd035608b2baabc4bd50d8ecc86af8528df9d41f4d83664c6a" "aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" "4cf9ed30ea575fb0ca3cff6ef34b1b87192965245776afa9e9e20c17d115f3fb" "16bc8f14ddf7021ffc4e60f28eb2c2a866078f5c046421b96ccd918a1630b24d" "e0248214be7dbd262651ebeb55bb40f139821869874536dce9ad58578929eeff" "95a77bbbcf82eac085844f8f2d11e7196cf88748a145316ac84525e4516c3ff8" "9c643c2ee5bf1baabd59b89f5be2c7bde30f4fdac5107fe9a06d05d5b562ef5f" "40c84e05fe3bb555b6b348f8231332cf59d26ad6313a4ebabe725dfd8b5d66c8" "db772d32fdcc49ff5a18f3a027ae67ec3f76e62d4303decbe7fb2769803bad4d" "698d072bc75860ae449ac55c138e9a0d0e125c3cb58149238470e598ab9fae0d" default)))
+    ("a7b2f17a57ca84c9f43aaf3b96010d2d5449ff902d702f1ac0a7b9082854cb37" "2681c80b05b9b972e1c5e4d091efb9ba7bb5fa7dad810d9026bc79607a78f1c0" "b89ae2d35d2e18e4286c8be8aaecb41022c1a306070f64a66fd114310ade88aa" "939ea070fb0141cd035608b2baabc4bd50d8ecc86af8528df9d41f4d83664c6a" "aded61687237d1dff6325edb492bde536f40b048eab7246c61d5c6643c696b7f" "4cf9ed30ea575fb0ca3cff6ef34b1b87192965245776afa9e9e20c17d115f3fb" "16bc8f14ddf7021ffc4e60f28eb2c2a866078f5c046421b96ccd918a1630b24d" "e0248214be7dbd262651ebeb55bb40f139821869874536dce9ad58578929eeff" "95a77bbbcf82eac085844f8f2d11e7196cf88748a145316ac84525e4516c3ff8" "9c643c2ee5bf1baabd59b89f5be2c7bde30f4fdac5107fe9a06d05d5b562ef5f" "40c84e05fe3bb555b6b348f8231332cf59d26ad6313a4ebabe725dfd8b5d66c8" "db772d32fdcc49ff5a18f3a027ae67ec3f76e62d4303decbe7fb2769803bad4d" "698d072bc75860ae449ac55c138e9a0d0e125c3cb58149238470e598ab9fae0d" default)))
  '(fci-rule-character-color "#452E2E")
  '(fci-rule-color "#452E2E")
  '(org-agenda-files nil)
+ '(org-export-backends (quote (ascii html icalendar latex md odt)))
  '(package-selected-packages
    (quote
-    (gnu-elpa-keyring-update elpy powerline  rustic htmlize easy-jekyll weblogger flycheck-clangcheck flycheck-haskell flycheck-rust pdf-tools rust-mode javap-mode haskell-mode switch-window ivy use-package fancy-battery magit eww-lnum flycheck auto-complete lsp-treemacs)))
+    (suscolors-theme go-mode gnu-elpa-keyring-update elpy powerline rustic htmlize easy-jekyll weblogger flycheck-clangcheck flycheck-haskell flycheck-rust pdf-tools rust-mode javap-mode haskell-mode switch-window ivy use-package fancy-battery magit eww-lnum flycheck auto-complete lsp-treemacs)))
  '(pdf-view-midnight-colors (quote ("#fdf4c1" . "#32302f"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -122,7 +120,6 @@
  )
 
 ;; This should automatically download any packages not already installed
-(package-refresh-contents)
 (package-install-selected-packages)
 
 
@@ -192,3 +189,4 @@
 (setq easy-jekyll-url "https://zhaba.dev")
 (define-key global-map (kbd "C-c C-e")`easy-jekyll)
 
+(global-set-key (kbd "C-c p") 'package-refresh-contents)
