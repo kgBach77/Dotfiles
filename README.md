@@ -1,5 +1,8 @@
 # Dotfiles
 
-These are the dotfiles for my Gentoo laptop.  I got tired of trying to fix the same bugs because I didn't think to save my dotfiles.
+This is made up primarily of my emacs dotfiles with a few other from my laptop.  I found that it was much easier to dump these files on github 
+rather than spend an extra hour or two typing the same problems into google and trying to figure out how to get urxvt to look right or how to 
+get xrandr to scale to high-DPI screens properly.
 
-I primarily use emacs and my .emacs is a mix of everything I found to be really useful. 
+My .emacs file is my own, in a way.  I've built it up over time by looking through various other .emacs files on github and pulling out piecemeal 
+the featurs I found to be most useful, along with any other fiddly changes I've made to make it more comfortable.
