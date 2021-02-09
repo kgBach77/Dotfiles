@@ -1,1244 +1,1258 @@
-((("newBoard" .
-   [6 0 0 0 0 0 0 0])
-  ("cols" .
-   [5 0 0 0])
-  ("rows" .
-   [6 0 0 0])
-  ("board_init" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("Board" .
-   [7 0 0 0 0])
-  ("elements" .
-   [1 0 0 0 0 0 0 0])
-  ("exTree" .
-   [1 0 0 0 0 0])
-  ("createTree" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("make" .
-   [1 0 0 0])
-  ("to" .
-   [1 0])
-  ("n1" .
-   [3 0])
-  ("preorderPrint" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("PREORDER" .
-   [0 0 0 0 0 1 0 0])
-  ("postorderPrint" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("stringInput" .
-   [2 0 0 0 0 0 1 0 2 0 0])
-  ("initTreeNode" .
-   [4 0 0 0 0 0 0 0 0 0 0 0])
-  ("TreeNode" .
-   [5 0 0 0 0 0 0 0])
-  ("Parser" .
-   [6 0 0 0 0 0])
-  ("src" .
-   [3 0 0])
-  ("srcSize" .
-   [1 0 0 0 1 0 0])
-  ("offset" .
-   [1 0 0 0 0 0])
-  ("lexer" .
-   [2 0 0 0 0])
-  ("MIN" .
-   [1 0 0])
-  ("MACROS_H" .
-   [1 0 0 0 0 0 0 0])
-  ("BASIC_SORTS_C" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Sort" .
-   [1 0 0 0])
-  ("Insertion" .
-   [2 0 0 0 0 0 0 0 0])
-  ("libs" .
-   [1 0 0 0])
-  ("generateArray" .
-   [0 0 0 0 0 0 0 0 0 1 1 0 0])
-  ("INSERTION" .
-   [2 0 0 0 0 0 0 0 0])
-  ("LEN" .
-   [9 0 1])
-  ("printArray" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("insertionSort" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("swap" .
-   [6 0 0 0])
-  ("COMMON_C" .
-   [1 0 0 0 0 0 0 0])
-  ("Println" .
-   [2 0 0 0 0 0 0])
-  ("fmt" .
-   [2 0 0])
-  ("Args" .
-   [1 0 0 0])
-  ("os" .
-   [1 0])
-  ("sep" .
-   [3 0 0])
-  ("arguments" .
-   [1 0 0 0 0 0 0 0 0])
-  ("prints" .
-   [1 0 0 0 0 0])
-  ("translate" .
-   [1 0 0 0 0 0 0 0 0])
-  ("include" .
-   [0 0 0 0 0 1 0])
-  ("sort" .
-   [3 0 0 0])
-  ("nextch" .
-   [3 0 0 0 0 0])
-  ("nextc" .
-   [5 0 0 0 0])
-  ("package-check-signature" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("package-install-selected-packages" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("loadFile" .
-   [2 0 0 0 0 0 0 0])
-  ("fsize" .
-   [3 0 0 0 0])
-  ("pch" .
-   [4 0 0])
-  ("res" .
-   [2 0 0])
-  ("strtok" .
-   [5 0 0 0 0 0])
-  ("ctype" .
-   [2 0 0 0 0])
-  ("outputStr" .
-   [1 0 0 0 0 0 0 0 0])
-  ("outputString" .
-   [6 0 0 0 0 0 0 0 0 0 0 1])
-  ("S_isEmpty" .
-   [0 0 0 0 1 0 0 0 0])
-  ("operatorStack" .
-   [0 0 1 0 1 1 2 0 0 0 0 0 0])
-  ("outputQ" .
-   [1 0 0 0 0 0 0])
-  ("enqueue" .
-   [1 0 0 0 0 0 0])
-  ("createQueue" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("Queue" .
-   [3 0 0 0 0])
-  ("testInput" .
+((("GRID_SIZE" .
    [1 0 0 0 0 0 1 0 0])
-  ("shunting" .
-   [0 0 0 0 0 0 0 3])
-  ("infix" .
-   [12 0 0 0 0])
-  ("equation" .
-   [1 0 0 0 0 0 0 0])
-  ("stdlib" .
-   [2 0 0 0 0 0])
-  ("createStack" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("createNode" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("top" .
-   [7 0 0])
-  ("STACK" .
-   [0 0 0 0 1])
-  ("powerline-default-theme" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("powerline" .
-   [1 0 0 0 0 0 0 0 0])
-  ("FILESIZE" .
-   [4 0 0 0 0 0 0 0])
-  ("result" .
-   [46 0 0 0 0 0])
-  ("rowHasVal" .
-   [1 0 0 0 1 0 0 0 0])
-  ("printPuzzle" .
-   [8 0 0 0 0 0 0 1 0 0 0])
-  ("WRAPPER_Solve" .
-   [2 0 0 0 0 4 1 3 0 0 0 0 0])
-  ("removeVal" .
-   [1 0 0 0 0 0 2 0 0])
-  ("placeVal" .
-   [4 0 0 0 0 2 1 0])
-  ("isSafe" .
-   [9 0 0 0 0 0])
-  ("solvePuzzle" .
-   [4 0 0 0 0 0 2 1 0 0 4])
-  ("SUBGRID_DIM" .
-   [1 0 0 15 1 1 0 0 0 0 0])
-  ("puzzle" .
-   [1 0 0 0 0 0])
-  ("DIM" .
-   [25 0 0])
-  ("puzzleVal" .
-   [2 0 0 0 0 0 0 0 0])
-  ("row" .
-   [87 0 0])
-  ("puzzleValue" .
-   [4 0 0 0 0 0 0 0 0 0 0])
-  ("col" .
-   [82 0 0])
-  ("putchar" .
-   [15 0 0 0 0 0 0])
-  ("DEFAULT_FILESIZE" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
-  ("testBuff" .
-   [3 0 0 0 0 0 0 0])
-  ("pBuffer" .
-   [9 0 1 0 0 0 0])
-  ("FILE" .
+  ("time" .
    [3 0 0 0])
-  ("subgrids" .
-   [0 0 0 0 0 0 0 1])
-  ("memset" .
-   [5 0 0 0 0 0])
-  ("rowHasval" .
-   [0 0 0 2 0 0 0 0 1])
-  ("colHasVal" .
-   [3 0 0 0 0 1 6 0 0])
-  ("subgridHasVal" .
-   [1 0 0 2 0 1 1 1 2 1 2 1 3])
-  ("isFixed" .
-   [5 0 0 5 0 4 0])
-  ("loadPuzzle" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Puzzle" .
-   [17 0 0 0 0 0])
-  ("newFileName" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("strcat" .
-   [3 0 0 0 0 0])
-  ("newFile" .
-   [1 0 0 0 0 0 0])
-  ("formatBuffer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("fputs" .
-   [1 0 0 0 0])
-  ("fclose" .
-   [1 0 0 0 0 0])
-  ("fileSize" .
-   [2 0 0 0 0 0 0 0])
-  ("buffer" .
-   [21 0 0 0 0 0])
-  ("fseek" .
+  ("srand" .
    [3 0 0 0 0])
-  ("fp" .
-   [6 0])
-  ("wrapMod" .
-   [1 0 0 0 0 0 0])
-  ("encodeChar" .
-   [6 0 0 0 0 0 0 0 0 0])
-  ("decodeChar" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("strcmp" .
-   [2 0 0 0 0 0])
-  ("decode" .
-   [15 0 0 0 0 0])
-  ("argv" .
-   [21 0 0 0])
-  ("keyLen" .
-   [4 0 0 0 0 0])
-  ("caesarEncode" .
-   [1 0 0 0 0 0 0 0 1 0 0 0])
-  ("msgLen" .
-   [2 0 0 0 0 0])
-  ("strlen" .
-   [8 0 0 0 0 0])
-  ("key" .
-   [7 0 0])
-  ("encode" .
-   [5 0 0 0 0 0])
-  ("caesarDecode" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("shift" .
-   [33 0 0 0 0])
-  ("message" .
-   [41 0 0 1 0 0 0])
-  ("global-map" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("easy-jekyll" .
-   [0 0 0 0 0 2 0 0 0 0 1])
-  ("easy-jekyll-basedir" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("defun" .
-   [2 0 0 0 0])
-  ("defvar" .
-   [2 0 0 0 0 1])
-  ("This" .
-   [1 0 0 0])
-  ("Visualizer" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("tokenStack" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("expTree" .
-   [3 0 0 0 0 0 0])
-  ("createNewTree" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("prev" .
-   [1 0 0 0])
-  ("stdio" .
-   [5 0 0 0 0])
-  ("trav" .
-   [26 0 0 0])
-  ("printStack" .
-   [10 0 0 0 0 0 0 0 0 0])
-  ("toIns" .
-   [8 0 0 0 0])
-  ("NULL" .
-   [27 0 0 0])
-  ("binarySearch" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("size_t" .
-   [4 0 0 0 0 0])
-  ("array" .
-   [5 0 0 0 0])
-  ("test" .
-   [14 0 0 0])
-  ("getSize" .
-   [3 0 0 0 1 0 0])
-  ("Info" .
-   [0 0 0 1])
-  ("Postorder:" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("inorder" .
-   [1 0 0 0 0 0 0])
-  ("left" .
-   [8 0 0 0])
-  ("root" .
-   [8 0 0 0])
-  ("temp" .
-   [5 0 0 0])
-  ("rightEnd" .
-   [0 0 0 0 0 0 0 1])
-  ("leftEnd" .
-   [1 0 0 0 0 0 0])
-  ("rightStart" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("leftStart" .
-   [0 0 0 0 0 0 2 1 0])
-  ("boolea" .
-   [2 0 0 0 0 0])
-  ("pop" .
-   [87 0 0])
-  ("read_from_tokens" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("SyntaxError" .
-   [0 0 0 0 0 0 0 0 0 0 2])
-  ("tokens" .
-   [24 0 0 0 0 0])
-  ("maxSize" .
-   [0 0 0 0 1 0 0])
-  ("Object" .
-   [3 0 0 0 0 0])
-  ("items" .
-   [8 0 0 0 0])
-  ("ArrayBag" .
-   [4 0 0 0 1 3 1 0])
-  ("DEFAULT_MAX_SIZE" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("RANK_ABBREVS" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("other" .
-   [9 0 0 0 0])
-  ("isFaceCard" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("false" .
-   [16 0 0 0 0])
-  ("true" .
-   [25 0 0 0])
-  ("getSuitName" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("getRank" .
-   [6 0 0 0 0 0 1])
-  ("SUIT_" .
-   [0 0 0 0 1])
-  ("IllegalArgumentException" .
-   [0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setRank" .
-   [2 0 0 0 0 0 0])
-  ("setSuitNum" .
-   [2 0 0 0 0 0 1 0 0 0])
-  ("suitStr" .
-   [1 0 0 0 0 0 0])
-  ("suitNum" .
-   [8 0 0 0 0 1 1])
-  ("rank" .
-   [11 0 0 0])
-  ("suit" .
-   [2 0 0 0])
-  ("getSuitNum" .
-   [3 0 0 0 0 1 0 1 1 6])
-  ("SUIT_ABBREVS" .
-   [1 0 0 0 0 0 0 0 0 1 0 0])
-  ("SUIT_NAMES" .
-   [4 0 0 0 0 0 0 1 0 1])
-  ("RANK_NAMES" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("Card" .
-   [7 0 0 1])
-  ("rankings" .
-   [1 0 0 0 0 0 0 0])
-  ("printDatabase" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("fields" .
-   [5 0 0 0 0 0])
-  ("headerYears" .
-   [1 0 0 0 0 0 0 0 1 0 0])
-  ("FileNotFoundException" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("NUM_CITIES_PER_YEAR" .
-   [1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("data" .
-   [30 0 0 0])
-  ("readArray" .
-   [2 0 0 0 0 0 0 0 0])
-  ("numYears" .
-   [4 0 0 0 0 0 0 0])
-  ("File" .
-   [7 0 0 0])
-  ("n" .
-   [8])
-  ("filename" .
-   [3 0 0 0 0 0 0 0])
-  ("CityDatabase2" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("convertPop" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("S" .
-   [3])
-  ("ranking" .
-   [1 0 0 0 0 0 0])
-  ("year" .
-   [1 0 0 0])
-  ("split" .
-   [6 0 0 0 0])
-  ("null" .
-   [9 0 0 0])
-  ("s" .
-   [8])
-  ("recursivePrint" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("record" .
-   [1 0 0 0 0 0])
-  ("nextLine" .
-   [3 0 0 0 0 0 0 0])
-  ("input" .
-   [8 0 0 0 0])
-  ("fileName" .
-   [10 0 0 0 0 0 0 0])
-  ("database" .
-   [1 0 0 0 0 0 0 0])
-  ("searchByYear" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("thousands" .
-   [1 0 0 0 0 0 0 0 0])
-  ("popul" .
-   [1 0 0 0 0])
-  ("choice" .
-   [6 0 0 0 0 0])
-  ("CityDatabase" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("searchByCity" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("exec-path" .
-   [1 0 0 0 0 0 0 0 0])
-  ("explicit-csh-args" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("shell-file-name" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("explicit-shell-file-name" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
-  ("string" .
-   [5 0 0 0 0 0])
-  ("lastN" .
-   [3 0 0 0 0])
-  ("lastNChars" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("spaces" .
-   [6 0 0 0 0 0])
-  ("str" .
-   [35 0 0])
-  ("i" .
-   [16])
-  ("electric-pair-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("mo" .
-   [1 0])
-  ("num" .
-   [9 0 0])
-  ("mult" .
-   [14 0 0 0])
-  ("Unit" .
-   [1 0 0 0])
-  ("Tminus" .
-   [2 0 0 0 0 0])
-  ("System.out.println" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("itemWeight" .
-   [5 0 0 0 0 0 0 0 0 0])
-  ("calculateAdditionalCosts" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("weight" .
-   [2 0 0 0 0 0])
-  ("item" .
-   [5 0 0 0])
-  ("calculateShipping" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("shipping" .
-   [1 0 0 0 0 0 0 0])
-  ("itemType" .
-   [16 0 0 0 0 1 0 1])
-  ("in" .
-   [25 0])
-  ("shippingType" .
-   [11 0 0 0 0 0 0 0 0 1 0 0])
-  ("totalCost" .
-   [2 0 0 0 0 0 0 0 0])
-  ("nextInt" .
-   [3 0 0 0 1 1 0])
-  ("printf" .
-   [185 0 0 0 0 1])
-  ("getItemType" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("getShippingType" .
-   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
-  ("console" .
-   [17 0 0 0 0 0 0])
-  ("Scanner" .
-   [12 0 0 0 0 0 0])
-  ("display-time-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("display" .
-   [1 0 0 0 0 0 0])
-  (":config" .
-   [1 0 0 0 0 0 0])
-  ("c" .
-   [5])
-  (":ensure" .
-   [1 0 0 0 0 0 0])
-  ("Dashboard" .
-   [0 0 0 0 0 0 0 0 1])
-  ("use-package" .
-   [1 0 0 0 0 0 1 0 0 0 0])
-  (":configuration-error" .
-   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
-  (":" .
+  ("b" .
    [1])
-  ("hl-line-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("prog-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("add-hook" .
-   [1 0 0 0 0 0 0 1])
-  ("window-system" .
-   [1 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("when" .
-   [3 0 0 0])
-  ("prefer-coding-system" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("set-selection-coding-system" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("set-keyboard-coding-system" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("utf-8" .
-   [1 0 0 0 2])
-  ("set-terminal-coding-system" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("locale-coding-system" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ignore" .
-   [1 0 0 0 0 0])
-  ("ring-bell-function" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("scroll-bar-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scroll" .
-   [1 0 0 0 0 0])
-  ("menu-bar-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tool-bar-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tool-bar-map" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("print" .
-   [10 0 0 0 0])
-  ("semicolon" .
-   [2 0 0 0 0 0 0 0 0])
-  ("lines" .
-   [8 0 0 0 0])
-  ("add-to-" .
-   [0 0 0 0 0 0 1])
-  ("org-latex-default-package-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("-remove-item" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("indentation" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("defvaralias" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("process-kill-buffer-query-function" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("remq" .
-   [1 0 0 0])
-  ("kill-buffer-query-functions" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
-  ("calendar" .
-   [1 0 0 0 0 0 0 1])
-  ("user-mail-address" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("user-full-name" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("po" .
-   [1 0])
-  ("add" .
-   [16 0 0])
-  ("a" .
-   [11])
-  ("AUTO" .
-   [2 0 0 0])
-  ("packages" .
-   [1 0 0 0 0 0 0 0])
-  ("header" .
-   [4 0 0 0 0 0])
-  ("head" .
-   [59 0 0 0])
-  ("font" .
-   [1 0 0 0])
-  ("org-latex-minted-options" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("pdflatex" .
-   [2 0 0 0 0 0 0 0])
-  ("org-latex-pdf-process" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("flag" .
-   [1 0 0 0])
-  ("sh" .
-   [1 0])
-  ("minted" .
-   [1 0 0 0 0 0])
-  ("org-latex-listings" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("org-latex-packages-alist" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 2])
-  ("org-latex-packages-" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("t" .
-   [4])
-  ("fill-column" .
-   [1 0 0 0 0 0 0 0 0 0 1])
-  ("fill" .
-   [1 0 0 0])
-  (":height" .
-   [1 0 0 0 0 0 0])
-  ("nil" .
-   [7 0 0])
-  ("default" .
-   [1 0 0 0 0 0 0])
-  ("set-face-attribute" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("set" .
-   [5 0 0])
-  ("org-src-fontify-natively" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("add-to-list" .
-   [2 0 0 0 0 0 0 0 0 0 4])
-  ("org-latex" .
-   [2 0 0 0 0 0 0 0 0])
-  ("require" .
-   [3 0 0 0 0 0 0])
-  ("indent-tabs-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("setq-default" .
-   [2 0 0 0 0 0 0 0 0 0 0 1])
-  ("tab-width" .
-   [0 0 0 0 0 0 1 0 3])
-  ("c-basic-offset" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("setq" .
-   [34 0 0 1])
-  ("args" .
-   [6 0 0 0])
-  ("String" .
-   [53 0 0 2 0 0])
-  ("main" .
-   [10 0 0 0])
-  ("void" .
-   [3 0 0 2])
-  ("static" .
-   [3 0 0 0 0 1])
-  ("wordBreak" .
-   [0 0 0 0 0 1 0 0 0])
-  ("class" .
-   [2 0 0 0 0])
-  ("public" .
-   [5 0 0 1 0 1])
-  ("define-key" .
-   [0 0 1 0 0 0 0 0 0 1])
-  ("System" .
-   [36 0 0 0 0 0])
-  ("out" .
-   [27 0 0])
-  ("println" .
-   [20 0 0 0 0 0 0])
-  ("line" .
-   [7 0 0 0])
-  ("draw" .
-   [1 0 0 0])
-  ("colons" .
-   [3 0 0 0 0 0])
-  ("drawRoof" .
-   [1 0 0 0 0 0 0 0])
-  ("dashboard-center-content" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("str1" .
-   [18 0 0 0])
-  ("str2" .
-   [9 0 0 0])
-  ("length" .
-   [33 0 0 0 1 1])
-  ("min" .
-   [43 0 0])
-  ("sharedPoint" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("max" .
-   [17 0 0])
-  ("output" .
-   [9 0 0 0 0 0])
-  ("charAt" .
-   [8 0 0 0 0 0])
-  ("removeSubstring" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("remove" .
-   [6 0 0 0 0 0])
-  ("interleave" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("substring" .
-   [4 0 0 1 0 0 0 1 0])
-  ("strings" .
-   [1 0 0 0 0 0 0])
-  ("isEqual" .
-   [0 0 0 1 0 0 0])
-  ("replace" .
-   [3 0 0 0 0 0 0])
-  ("global-set-key" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("kbd" .
-   [3 0 0])
-  ("magit" .
-   [1 0 0 0 0])
-  ("option" .
-   [4 0 0 0 0 0])
-  ("numCopies" .
-   [2 0 0 1 0 0 0 0 0])
-  ("printCopies" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("printTriangle" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("lastIndexOf" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("contains" .
-   [6 0 0 0 0 0 0 0])
-  ("recursion" .
-   [2 0 0 0 0 0 0 0 0])
-  ("java" .
-   [1 0 0 0])
-  ("util" .
-   [1 0 0 0])
-  ("Player" .
-   [2 0 0 0 0 0])
-  ("name" .
-   [11 0 0 0])
-  ("setName" .
-   [0 0 0 0 0 1 0])
-  ("hand" .
-   [7 0 0 0])
-  ("Blackjack" .
-   [0 0 0 0 0 1 0 0 1])
-  ("MAX_CARDS_PER_PLAYER" .
-   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("numCards" .
-   [2 0 0 0 0 0 0 0])
-  ("addCard" .
-   [1 0 0 0 0 0 0])
-  ("toAdd" .
-   [10 0 0 0 0])
-  ("card" .
-   [1 0 0 0])
-  ("getHandValue" .
-   [1 0 0 0 0 0 0 1 0 0 0 0])
-  ("sum" .
-   [1 0 0])
-  ("wantsHit" .
-   [2 0 0 0 0 0 0 0])
-  ("equalsIgnorecase" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("discardCards" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("solution" .
-   [1 0 0 0 0 0 0 0])
-  ("val" .
-   [78 0 0])
-  ("findSolution" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("params" .
-   [1 0 0 0 0 0])
-  ("indexOf" .
-   [1 0 0 0 0 0 0])
-  ("create" .
-   [4 0 0 0 0 0])
-  ("and" .
-   [4 0 0])
-  ("return" .
-   [5 0 0 0 0 0])
-  ("should" .
-   [7 0 0 0 0 0])
-  ("not" .
-   [3 0 0])
-  ("any" .
-   [2 0 0])
-  ("resulting" .
-   [1 0 0 0 0 0 0 0 0])
-  ("bag" .
-   [7 0 0])
-  ("with" .
-   [3 0 0 0])
-  ("the" .
-   [10 0 0])
-  ("if" .
-   [2 0])
-  ("occur" .
-   [1 0 0 0 0])
-  ("both" .
-   [4 0 0 0])
-  ("which-func" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("or" .
-   [1 0])
-  ("bags" .
-   [3 0 0 0])
-  ("method" .
-   [2 0 0 0 0 0])
-  ("empty" .
-   [1 0 0 0 0])
-  ("parameter" .
-   [1 0 0 0 0 0 0 0 0])
-  ("throw" .
-   [1 0 0 0 0])
-  ("The" .
-   [1 0 0])
-  ("is" .
-   [3 0])
-  ("equal" .
-   [1 0 0 0 0])
-  ("number" .
-   [2 0 0 0 0 0])
-  ("size" .
-   [16 0 0 0])
-  ("each" .
-   [2 0 0 0])
-  ("check" .
-   [1 0 0 0 0])
-  ("it" .
-   [3 0])
-  ("e" .
-   [2])
-  ("Bag" .
-   [1 0 0])
-  ("newBag" .
-   [6 0 0 0 0 0])
-  ("l" .
-   [4])
-  ("numItems" .
-   [2 0 0 0 0 0 0 0])
-  ("newBagCounter" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Can" .
-   [1 0 0])
-  ("use" .
-   [2 0 0])
-  ("since" .
-   [1 0 0 0 0])
-  ("Easiest" .
-   [1 0 0 0 0 0 0])
-  ("two-column" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("new" .
-   [11 0 0])
-  ("for" .
-   [2 0 0])
-  ("values" .
-   [11 0 0 1 0 2])
-  ("arrays" .
-   [1 0 0 0 0 0])
-  ("object" .
-   [2 0 0 0 0 0])
-  ("through" .
-   [1 0 0 0 0 0 0])
-  ("of" .
-   [1 0])
-  ("smaller" .
-   [1 0 0 0 0 0 0])
-  ("element" .
-   [1 0 0 0 0 0 0])
-  ("which" .
-   [1 0 0 0 0])
-  ("otherItems" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("arr" .
-   [61 0 0])
-  ("StringNode" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("copy" .
-   [1 0 0 0])
-  ("token" .
-   [42 0 0 0 0])
-  ("Tree" .
-   [13 0 0 0])
-  ("tree" .
-   [4 0 0 0])
-  ("origin" .
-   [3 0 0 0 0 0])
-  ("Vertex" .
-   [1 0 0 2 0 0])
-  ("encountered" .
-   [0 0 0 0 0 0 1 0 0 1 0])
-  ("parent" .
-   [3 0 0 0 0 0])
-  ("insert" .
-   [1 0 0 0 0 0])
-  ("Node" .
-   [46 0 0 1])
-  ("next" .
-   [50 0 0 0])
-  ("Stack" .
-   [43 0 0 0 0])
-  ("newStack" .
-   [33 0 0 0 0 0 0 0])
-  ("stack" .
-   [13 0 0 0 0])
-  ("ret" .
-   [2 0 0])
-  ("node" .
-   [32 0 0 0])
-  ("Node_t" .
-   [3 0 0 0 0 0])
-  ("push" .
-   [56 0 0 0])
-  ("st" .
-   [107 0])
-  ("wcs" .
-   [1 0 0])
-  ("node_t" .
-   [14 0 0 0 0 0])
-  ("newNode" .
-   [21 0 0 0 0 0 0])
-  ("malloc" .
-   [6 0 0 0 0 0])
-  ("newTree" .
-   [2 0 0 0 0 0 0])
-  ("createNewNode" .
-   [11 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("rootData" .
-   [1 0 0 0 0 0 0 0])
-  ("inorderPrint" .
-   [2 0 0 0 0 0 0 1 0 1 0 0])
-  ("right" .
-   [6 0 0 0 0])
-  ("parseRecurse" .
-   [6 0 0 0 0 0 0 0 1 0 1 0])
-  ("parse" .
-   [9 0 0 0 0])
-  ("LNode" .
-   [2 0 0 0 0])
-  ("SNode" .
-   [3 0 0 0 0])
-  ("node_l" .
-   [3 0 0 0 0 0])
-  ("node_s" .
-   [9 0 0 0 0 0])
-  ("createNewSNode" .
-   [0 0 0 0 0 0 0 0 0 0 1 1 0 0])
-  ("toPop" .
-   [4 0 0 0 0])
-  ("popVal" .
-   [1 0 0 0 0 0])
-  ("popData" .
-   [1 0 0 0 0 0 0])
-  ("creatNewStack" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("addToStack" .
-   [0 0 0 1 1 1 0 0 0 0])
-  ("len" .
-   [14 0 0])
-  ("expRoot" .
-   [1 0 0 0 0 0 0])
-  ("isEmpty" .
-   [8 0 0 0 0 0 0])
-  ("isOperator" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("newHead" .
-   [2 0 0 0 0 0 0])
-  ("unsigned" .
-   [0 0 0 0 1 0 0 0])
-  ("byte" .
-   [16 0 0 0])
-  ("reserved" .
-   [1 0 0 0 0 0 0 0])
-  ("memory" .
-   [9 0 0 0 0 0])
-  ("memory_init" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("memorysize" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("address" .
-   [3 0 0 0 0 0 0])
-  ("word" .
-   [8 0 0 0])
-  ("WORD" .
-   [1 0 0 0])
-  ("value" .
-   [1 0 0 0 0])
-  ("find" .
-   [4 0 0 0])
-  ("search" .
-   [2 0 0 0 0 0])
-  ("bool" .
-   [13 0 0 0])
-  ("searchChar" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("package-archive-contents" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("package" .
-   [1 0 0 0 0 0 0])
-  ("package-refresh-contents" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
-  ("content" .
-   [2 0 0 0 0 0 0])
-  ("await" .
-   [19 0 0 0 0])
-  ("channel" .
-   [15 0 0 0 0 0 0])
-  ("send" .
-   [17 0 0 0])
-  ("author" .
-   [4 0 0 0 0 0])
-  ("client" .
-   [1 0 0 0 0 0])
-  ("Client" .
-   [1 0 0 0 0 0])
-  ("discord" .
-   [7 0 0 0 0 0 0])
-  ("commands" .
-   [1 0 0 0 0 0 0 0])
-  ("async" .
-   [8 0 0 0 0])
-  ("toadpic" .
-   [1 0 0 0 0 0 0])
-  ("get_toad_picture" .
+  ("board_printBoard" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("toad_pic_file" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ctx" .
-   [26 0 0])
-  ("bot" .
-   [9 0 0])
-  ("command" .
-   [9 0 0 0 0 0 0])
-  ("toad" .
-   [1 0 0 0])
-  ("dataquote" .
-   [1 0 0 0 0 0 0 0 0])
-  ("response" .
-   [6 0 0 0 0 0 0 0])
-  ("get_dataQuote" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("event" .
-   [3 0 0 0 0])
-  ("arg" .
-   [10 0 0])
-  ("set-frame-font" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("argc" .
-   [3 0 0 0])
-  ("something" .
-   [1 0 0 0 0 0 0 0 0])
-  ("A" .
-   [1])
-  ("atom_t" .
-   [1 0 0 0 0 0])
-  ("Atom" .
-   [2 0 0 0])
-  ("bracketCheck" .
-   [7 0 0 0 0 0 0 3 2 0 0 1])
-  ("fgetc" .
-   [1 0 0 0 0])
-  ("EOF" .
+  ("board" .
+   [6 0 0 0 0])
+  ("get" .
    [1 0 0])
-  ("peek" .
-   [1 0 0 0])
-  ("gif" .
-   [8 0 0])
-  ("get_gif" .
+  ("options" .
    [1 0 0 0 0 0 0])
-  ("byrne" .
-   [1 0 0 0 0])
-  ("listdir" .
-   [1 0 0 0 0 0 0])
-  ("tk" .
-   [4 0])
-  ("ttk" .
-   [5 0 0])
-  ("LabelInput" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("Frame" .
-   [2 0 0 0 0])
-  ("label" .
-   [4 0 0 0 0])
-  ("input_class" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("Button" .
-   [2 0 0 0 0 0])
-  ("input_var" .
+  ("repl_input" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("character" .
    [3 0 0 0 0 0 0 0 0])
-  ("input_args" .
-   [6 0 0 0 0 0 0 0 0 0])
-  ("label_args" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("kwargs" .
-   [2 0 0 0 0 0])
-  ("button_args" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("variable" .
-   [1 0 0 0 0 0 0 0])
-  ("Radiobutton" .
+  ("CONSOLE_HELP_MESSAGE" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("stat_list" .
+   [1 0 0 0 0 0 0 0 0])
+  ("description" .
    [1 0 0 0 0 0 0 0 0 0 0])
-  ("grid" .
-   [7 0 0 0])
-  ("column" .
-   [1 0 0 0 0 0])
-  ("sticky" .
-   [1 0 0 0 0 0])
-  ("file" .
-   [1 0 0 0])
-  ("newLen" .
-   [1 0 0 0 0 0])
-  ("fileBuffer" .
-   [7 0 0 0 0 0 0 0 0 0])
-  ("parseComments" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("COMMENTEXTRACTION_C" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scanDir" .
+  ("skill" .
+   [8 0 0 0 0])
+  ("describe" .
+   [2 0 0 0 0 0 0 0])
+  ("quit_command" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("body_type" .
+   [1 0 0 0 0 0 0 0 0])
+  ("empathy" .
    [1 0 0 0 0 0 0])
-  ("expression" .
-   [43 0 0 0 0 1 0 0 0 0])
-  ("doOp" .
-   [3 0 0 0])
-  ("sub" .
-   [9 0 0])
-  ("pushed" .
-   [1 0 0 0 0 0])
-  ("div" .
-   [1 0 0])
-  ("divide" .
-   [8 0 0 0 0 0])
-  ("tokenize" .
+  ("movement" .
    [1 0 0 0 0 0 0 0])
-  ("Q_isEmpty" .
-   [0 0 0 0 1 0 1 0 0])
-  ("dequeue" .
-   [1 0 0 0 0 0 0])
-  ("opStack" .
-   [2 0 0 0 0 0 0])
-  ("ch" .
-   [11 0])
-  ("opTop" .
-   [2 0 0 0 0])
-  ("topPrecedence" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("testStr" .
-   [1 0 0 0 0 0 0])
-  ("HEAP_C" .
-   [1 0 0 0 0 0])
-  ("Heap" .
-   [3 0 0 0])
-  ("MEMSIZE" .
-   [1 0 0 0 0 1 0])
-  ("Chip8" .
-   [9 0 0 0 0])
-  ("chip8_init" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("chip8_loadRom" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("c8" .
-   [7 0])
-  ("romPath" .
-   [2 0 0 0 0 0 0])
-  ("rom" .
-   [4 0 0])
-  ("chip8_draw" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("chip8_emulateCycle" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("chip8_processInput" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("SDL_Event" .
-   [1 0 0 0 0 0 0 0 0])
-  ("SDL" .
-   [1 0 0])
-  ("Character" .
-   [2 0 0 0 0 0 0 0 0])
-  ("handle" .
-   [1 0 0 0 0 0])
-  ("role" .
-   [1 0 0 0])
-  ("intellect" .
-   [1 0 0 0 0 0 0 0 0])
-  ("reflex" .
-   [1 0 0 0 0 0])
-  ("cool" .
+  ("attractiveness" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("luck" .
    [1 0 0 0])
   ("technical" .
    [1 0 0 0 0 0 0 0 0])
-  ("luck" .
+  ("cool" .
    [1 0 0 0])
-  ("attractiveness" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("movement" .
-   [1 0 0 0 0 0 0 0])
-  ("empathy" .
-   [1 0 0 0 0 0 0])
-  ("body_type" .
+  ("reflex" .
+   [1 0 0 0 0 0])
+  ("intellect" .
    [1 0 0 0 0 0 0 0 0])
-  ("quit_command" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("describe" .
-   [2 0 0 0 0 0 0 0])
-  ("skill" .
-   [8 0 0 0 0])
-  ("description" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("stat_list" .
-   [1 0 0 0 0 0 0 0 0])
-  ("CONSOLE_HELP_MESSAGE" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("character" .
-   [3 0 0 0 0 0 0 0 0])
-  ("repl_input" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("options" .
-   [1 0 0 0 0 0 0])
-  ("get" .
+  ("role" .
+   [1 0 0 0])
+  ("handle" .
+   [1 0 0 0 0 0])
+  ("Character" .
+   [2 0 0 0 0 0 0 0 0])
+  ("SDL" .
    [1 0 0])
-  ("board" .
-   [6 0 0 0 0])
-  ("board_printBoard" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("b" .
-   [1])
-  ("srand" .
-   [3 0 0 0 0])
-  ("time" .
+  ("SDL_Event" .
+   [1 0 0 0 0 0 0 0 0])
+  ("chip8_processInput" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("chip8_emulateCycle" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("chip8_draw" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("rom" .
+   [4 0 0])
+  ("romPath" .
+   [2 0 0 0 0 0 0])
+  ("c8" .
+   [7 0])
+  ("chip8_loadRom" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("chip8_init" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("Chip8" .
+   [9 0 0 0 0])
+  ("MEMSIZE" .
+   [1 0 0 0 0 1 0])
+  ("Heap" .
    [3 0 0 0])
-  ("GRID_SIZE" .
-   [1 0 0 0 0 0 1 0 0])))
+  ("HEAP_C" .
+   [1 0 0 0 0 0])
+  ("testStr" .
+   [1 0 0 0 0 0 0])
+  ("topPrecedence" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("opTop" .
+   [2 0 0 0 0])
+  ("ch" .
+   [11 0])
+  ("opStack" .
+   [2 0 0 0 0 0 0])
+  ("dequeue" .
+   [1 0 0 0 0 0 0])
+  ("Q_isEmpty" .
+   [0 0 0 0 1 0 1 0 0])
+  ("tokenize" .
+   [1 0 0 0 0 0 0 0])
+  ("divide" .
+   [8 0 0 0 0 0])
+  ("div" .
+   [1 0 0])
+  ("pushed" .
+   [1 0 0 0 0 0])
+  ("sub" .
+   [9 0 0])
+  ("doOp" .
+   [3 0 0 0])
+  ("expression" .
+   [43 0 0 0 0 1 0 0 0 0])
+  ("scanDir" .
+   [1 0 0 0 0 0 0])
+  ("COMMENTEXTRACTION_C" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("parseComments" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("fileBuffer" .
+   [7 0 0 0 0 0 0 0 0 0])
+  ("newLen" .
+   [1 0 0 0 0 0])
+  ("file" .
+   [1 0 0 0])
+  ("sticky" .
+   [1 0 0 0 0 0])
+  ("column" .
+   [1 0 0 0 0 0])
+  ("grid" .
+   [7 0 0 0])
+  ("Radiobutton" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("variable" .
+   [1 0 0 0 0 0 0 0])
+  ("button_args" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("kwargs" .
+   [2 0 0 0 0 0])
+  ("label_args" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("input_args" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("input_var" .
+   [3 0 0 0 0 0 0 0 0])
+  ("Button" .
+   [2 0 0 0 0 0])
+  ("input_class" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("label" .
+   [4 0 0 0 0])
+  ("Frame" .
+   [2 0 0 0 0])
+  ("LabelInput" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ttk" .
+   [5 0 0])
+  ("tk" .
+   [4 0])
+  ("listdir" .
+   [1 0 0 0 0 0 0])
+  ("byrne" .
+   [1 0 0 0 0])
+  ("get_gif" .
+   [1 0 0 0 0 0 0])
+  ("gif" .
+   [8 0 0])
+  ("peek" .
+   [1 0 0 0])
+  ("EOF" .
+   [1 0 0])
+  ("fgetc" .
+   [1 0 0 0 0])
+  ("bracketCheck" .
+   [7 0 0 0 0 0 0 3 2 0 0 1])
+  ("Atom" .
+   [2 0 0 0])
+  ("atom_t" .
+   [1 0 0 0 0 0])
+  ("A" .
+   [1])
+  ("something" .
+   [1 0 0 0 0 0 0 0 0])
+  ("argc" .
+   [3 0 0 0])
+  ("set-frame-font" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("arg" .
+   [10 0 0])
+  ("event" .
+   [3 0 0 0 0])
+  ("get_dataQuote" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("response" .
+   [6 0 0 0 0 0 0 0])
+  ("dataquote" .
+   [1 0 0 0 0 0 0 0 0])
+  ("toad" .
+   [1 0 0 0])
+  ("command" .
+   [9 0 0 0 0 0 0])
+  ("bot" .
+   [9 0 0])
+  ("ctx" .
+   [26 0 0])
+  ("toad_pic_file" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("get_toad_picture" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("toadpic" .
+   [1 0 0 0 0 0 0])
+  ("async" .
+   [8 0 0 0 0])
+  ("commands" .
+   [1 0 0 0 0 0 0 0])
+  ("discord" .
+   [7 0 0 0 0 0 0])
+  ("Client" .
+   [1 0 0 0 0 0])
+  ("client" .
+   [1 0 0 0 0 0])
+  ("author" .
+   [4 0 0 0 0 0])
+  ("send" .
+   [17 0 0 0])
+  ("channel" .
+   [15 0 0 0 0 0 0])
+  ("await" .
+   [19 0 0 0 0])
+  ("content" .
+   [2 0 0 0 0 0 0])
+  ("package-refresh-contents" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("package" .
+   [1 0 0 0 0 0 0])
+  ("package-archive-contents" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("searchChar" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("bool" .
+   [13 0 0 0])
+  ("search" .
+   [2 0 0 0 0 0])
+  ("find" .
+   [4 0 0 0])
+  ("value" .
+   [1 0 0 0 0])
+  ("WORD" .
+   [1 0 0 0])
+  ("word" .
+   [8 0 0 0])
+  ("address" .
+   [3 0 0 0 0 0 0])
+  ("memorysize" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("memory_init" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("memory" .
+   [9 0 0 0 0 0])
+  ("reserved" .
+   [1 0 0 0 0 0 0 0])
+  ("byte" .
+   [16 0 0 0])
+  ("unsigned" .
+   [0 0 0 0 1 0 0 0])
+  ("newHead" .
+   [2 0 0 0 0 0 0])
+  ("isOperator" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("isEmpty" .
+   [8 0 0 0 0 0 0])
+  ("expRoot" .
+   [1 0 0 0 0 0 0])
+  ("len" .
+   [14 0 0])
+  ("addToStack" .
+   [0 0 0 1 1 1 0 0 0 0])
+  ("creatNewStack" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("popData" .
+   [1 0 0 0 0 0 0])
+  ("popVal" .
+   [1 0 0 0 0 0])
+  ("toPop" .
+   [4 0 0 0 0])
+  ("createNewSNode" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0])
+  ("node_s" .
+   [9 0 0 0 0 0])
+  ("node_l" .
+   [3 0 0 0 0 0])
+  ("SNode" .
+   [3 0 0 0 0])
+  ("LNode" .
+   [2 0 0 0 0])
+  ("parse" .
+   [9 0 0 0 0])
+  ("parseRecurse" .
+   [6 0 0 0 0 0 0 0 1 0 1 0])
+  ("right" .
+   [6 0 0 0 0])
+  ("inorderPrint" .
+   [2 0 0 0 0 0 0 1 0 1 0 0])
+  ("rootData" .
+   [1 0 0 0 0 0 0 0])
+  ("createNewNode" .
+   [11 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newTree" .
+   [2 0 0 0 0 0 0])
+  ("malloc" .
+   [6 0 0 0 0 0])
+  ("newNode" .
+   [21 0 0 0 0 0 0])
+  ("node_t" .
+   [14 0 0 0 0 0])
+  ("wcs" .
+   [1 0 0])
+  ("st" .
+   [107 0])
+  ("push" .
+   [56 0 0 0])
+  ("Node_t" .
+   [3 0 0 0 0 0])
+  ("node" .
+   [32 0 0 0])
+  ("ret" .
+   [2 0 0])
+  ("stack" .
+   [13 0 0 0 0])
+  ("newStack" .
+   [33 0 0 0 0 0 0 0])
+  ("Stack" .
+   [43 0 0 0 0])
+  ("next" .
+   [50 0 0 0])
+  ("Node" .
+   [46 0 0 1])
+  ("insert" .
+   [1 0 0 0 0 0])
+  ("parent" .
+   [3 0 0 0 0 0])
+  ("encountered" .
+   [0 0 0 0 0 0 1 0 0 1 0])
+  ("Vertex" .
+   [1 0 0 2 0 0])
+  ("origin" .
+   [3 0 0 0 0 0])
+  ("tree" .
+   [4 0 0 0])
+  ("Tree" .
+   [13 0 0 0])
+  ("token" .
+   [42 0 0 0 0])
+  ("copy" .
+   [1 0 0 0])
+  ("StringNode" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("arr" .
+   [61 0 0])
+  ("otherItems" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("which" .
+   [1 0 0 0 0])
+  ("element" .
+   [1 0 0 0 0 0 0])
+  ("smaller" .
+   [1 0 0 0 0 0 0])
+  ("of" .
+   [1 0])
+  ("through" .
+   [1 0 0 0 0 0 0])
+  ("object" .
+   [2 0 0 0 0 0])
+  ("arrays" .
+   [1 0 0 0 0 0])
+  ("values" .
+   [11 0 0 1 0 2])
+  ("for" .
+   [2 0 0])
+  ("new" .
+   [11 0 0])
+  ("two-column" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("Easiest" .
+   [1 0 0 0 0 0 0])
+  ("since" .
+   [1 0 0 0 0])
+  ("use" .
+   [2 0 0])
+  ("Can" .
+   [1 0 0])
+  ("newBagCounter" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("numItems" .
+   [2 0 0 0 0 0 0 0])
+  ("l" .
+   [4])
+  ("newBag" .
+   [6 0 0 0 0 0])
+  ("Bag" .
+   [1 0 0])
+  ("e" .
+   [2])
+  ("it" .
+   [3 0])
+  ("check" .
+   [1 0 0 0 0])
+  ("each" .
+   [2 0 0 0])
+  ("size" .
+   [16 0 0 0])
+  ("number" .
+   [2 0 0 0 0 0])
+  ("equal" .
+   [1 0 0 0 0])
+  ("is" .
+   [3 0])
+  ("The" .
+   [1 0 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("parameter" .
+   [1 0 0 0 0 0 0 0 0])
+  ("empty" .
+   [1 0 0 0 0])
+  ("method" .
+   [2 0 0 0 0 0])
+  ("bags" .
+   [3 0 0 0])
+  ("or" .
+   [1 0])
+  ("which-func" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("both" .
+   [4 0 0 0])
+  ("occur" .
+   [1 0 0 0 0])
+  ("if" .
+   [2 0])
+  ("the" .
+   [10 0 0])
+  ("with" .
+   [3 0 0 0])
+  ("bag" .
+   [7 0 0])
+  ("resulting" .
+   [1 0 0 0 0 0 0 0 0])
+  ("any" .
+   [2 0 0])
+  ("not" .
+   [3 0 0])
+  ("should" .
+   [7 0 0 0 0 0])
+  ("return" .
+   [5 0 0 0 0 0])
+  ("and" .
+   [4 0 0])
+  ("create" .
+   [4 0 0 0 0 0])
+  ("indexOf" .
+   [1 0 0 0 0 0 0])
+  ("params" .
+   [1 0 0 0 0 0])
+  ("findSolution" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("val" .
+   [78 0 0])
+  ("solution" .
+   [1 0 0 0 0 0 0 0])
+  ("discardCards" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("equalsIgnorecase" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("wantsHit" .
+   [2 0 0 0 0 0 0 0])
+  ("sum" .
+   [1 0 0])
+  ("getHandValue" .
+   [1 0 0 0 0 0 0 1 0 0 0 0])
+  ("card" .
+   [1 0 0 0])
+  ("toAdd" .
+   [10 0 0 0 0])
+  ("addCard" .
+   [1 0 0 0 0 0 0])
+  ("numCards" .
+   [2 0 0 0 0 0 0 0])
+  ("MAX_CARDS_PER_PLAYER" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Blackjack" .
+   [0 0 0 0 0 1 0 0 1])
+  ("hand" .
+   [7 0 0 0])
+  ("setName" .
+   [0 0 0 0 0 1 0])
+  ("name" .
+   [11 0 0 0])
+  ("Player" .
+   [2 0 0 0 0 0])
+  ("util" .
+   [1 0 0 0])
+  ("java" .
+   [1 0 0 0])
+  ("recursion" .
+   [2 0 0 0 0 0 0 0 0])
+  ("contains" .
+   [6 0 0 0 0 0 0 0])
+  ("lastIndexOf" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("printTriangle" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("printCopies" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("numCopies" .
+   [2 0 0 1 0 0 0 0 0])
+  ("option" .
+   [4 0 0 0 0 0])
+  ("magit" .
+   [1 0 0 0 0])
+  ("kbd" .
+   [3 0 0])
+  ("global-set-key" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("replace" .
+   [3 0 0 0 0 0 0])
+  ("isEqual" .
+   [0 0 0 1 0 0 0])
+  ("strings" .
+   [1 0 0 0 0 0 0])
+  ("substring" .
+   [4 0 0 1 0 0 0 1 0])
+  ("interleave" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("remove" .
+   [6 0 0 0 0 0])
+  ("removeSubstring" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("charAt" .
+   [8 0 0 0 0 0])
+  ("output" .
+   [9 0 0 0 0 0])
+  ("max" .
+   [17 0 0])
+  ("sharedPoint" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("min" .
+   [43 0 0])
+  ("length" .
+   [33 0 0 0 1 1])
+  ("str2" .
+   [9 0 0 0])
+  ("str1" .
+   [18 0 0 0])
+  ("dashboard-center-content" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("drawRoof" .
+   [1 0 0 0 0 0 0 0])
+  ("colons" .
+   [3 0 0 0 0 0])
+  ("draw" .
+   [1 0 0 0])
+  ("line" .
+   [7 0 0 0])
+  ("println" .
+   [20 0 0 0 0 0 0])
+  ("out" .
+   [27 0 0])
+  ("System" .
+   [36 0 0 0 0 0])
+  ("define-key" .
+   [0 0 1 0 0 0 0 0 0 1])
+  ("public" .
+   [5 0 0 1 0 1])
+  ("class" .
+   [2 0 0 0 0])
+  ("wordBreak" .
+   [0 0 0 0 0 1 0 0 0])
+  ("static" .
+   [3 0 0 0 0 1])
+  ("void" .
+   [3 0 0 2])
+  ("main" .
+   [13 0 0 0])
+  ("String" .
+   [53 0 0 2 0 0])
+  ("args" .
+   [6 0 0 0])
+  ("setq" .
+   [34 0 0 1])
+  ("c-basic-offset" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("tab-width" .
+   [0 0 0 0 0 0 1 0 3])
+  ("setq-default" .
+   [2 0 0 0 0 0 0 0 0 0 0 1])
+  ("indent-tabs-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("require" .
+   [3 0 0 0 0 0 0])
+  ("org-latex" .
+   [2 0 0 0 0 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 0 0 4])
+  ("org-src-fontify-natively" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [5 0 0])
+  ("set-face-attribute" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("nil" .
+   [7 0 0])
+  (":height" .
+   [1 0 0 0 0 0 0])
+  ("fill" .
+   [1 0 0 0])
+  ("fill-column" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("t" .
+   [4])
+  ("org-latex-packages-" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("org-latex-packages-alist" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 2])
+  ("org-latex-listings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("minted" .
+   [1 0 0 0 0 0])
+  ("sh" .
+   [1 0])
+  ("flag" .
+   [1 0 0 0])
+  ("org-latex-pdf-process" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("pdflatex" .
+   [2 0 0 0 0 0 0 0])
+  ("org-latex-minted-options" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("font" .
+   [1 0 0 0])
+  ("head" .
+   [59 0 0 0])
+  ("header" .
+   [4 0 0 0 0 0])
+  ("packages" .
+   [1 0 0 0 0 0 0 0])
+  ("AUTO" .
+   [2 0 0 0])
+  ("a" .
+   [11])
+  ("add" .
+   [16 0 0])
+  ("po" .
+   [1 0])
+  ("user-full-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("user-mail-address" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("calendar" .
+   [1 0 0 0 0 0 0 1])
+  ("kill-buffer-query-functions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("remq" .
+   [1 0 0 0])
+  ("process-kill-buffer-query-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defvaralias" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("indentation" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("-remove-item" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("org-latex-default-package-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("add-to-" .
+   [0 0 0 0 0 0 1])
+  ("lines" .
+   [8 0 0 0 0])
+  ("semicolon" .
+   [2 0 0 0 0 0 0 0 0])
+  ("print" .
+   [10 0 0 0 0])
+  ("tool-bar-map" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("tool-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("menu-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scroll" .
+   [1 0 0 0 0 0])
+  ("scroll-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ring-bell-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ignore" .
+   [1 0 0 0 0 0])
+  ("locale-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("set-terminal-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("utf-8" .
+   [1 0 0 0 2])
+  ("set-keyboard-coding-system" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set-selection-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("prefer-coding-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("when" .
+   [3 0 0 0])
+  ("window-system" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 1])
+  ("prog-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("hl-line-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  (":" .
+   [1])
+  (":configuration-error" .
+   [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [1 0 0 0 0 0 1 0 0 0 0])
+  ("Dashboard" .
+   [0 0 0 0 0 0 0 0 1])
+  (":ensure" .
+   [1 0 0 0 0 0 0])
+  ("c" .
+   [5])
+  (":config" .
+   [1 0 0 0 0 0 0])
+  ("display" .
+   [1 0 0 0 0 0 0])
+  ("display-time-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Scanner" .
+   [12 0 0 0 0 0 0])
+  ("console" .
+   [17 0 0 0 0 0 0])
+  ("getShippingType" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("getItemType" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("printf" .
+   [185 0 0 0 0 1])
+  ("nextInt" .
+   [3 0 0 0 1 1 0])
+  ("totalCost" .
+   [2 0 0 0 0 0 0 0 0])
+  ("shippingType" .
+   [11 0 0 0 0 0 0 0 0 1 0 0])
+  ("in" .
+   [25 0])
+  ("itemType" .
+   [16 0 0 0 0 1 0 1])
+  ("shipping" .
+   [1 0 0 0 0 0 0 0])
+  ("calculateShipping" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("item" .
+   [5 0 0 0])
+  ("weight" .
+   [2 0 0 0 0 0])
+  ("calculateAdditionalCosts" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("itemWeight" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("System.out.println" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Tminus" .
+   [2 0 0 0 0 0])
+  ("Unit" .
+   [1 0 0 0])
+  ("mult" .
+   [14 0 0 0])
+  ("num" .
+   [9 0 0])
+  ("mo" .
+   [1 0])
+  ("electric-pair-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("i" .
+   [16])
+  ("str" .
+   [35 0 0])
+  ("spaces" .
+   [6 0 0 0 0 0])
+  ("lastNChars" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("lastN" .
+   [3 0 0 0 0])
+  ("string" .
+   [5 0 0 0 0 0])
+  ("explicit-shell-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("shell-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("explicit-csh-args" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("exec-path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("searchByCity" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("CityDatabase" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("choice" .
+   [6 0 0 0 0 0])
+  ("popul" .
+   [1 0 0 0 0])
+  ("thousands" .
+   [1 0 0 0 0 0 0 0 0])
+  ("searchByYear" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("database" .
+   [1 0 0 0 0 0 0 0])
+  ("fileName" .
+   [10 0 0 0 0 0 0 0])
+  ("input" .
+   [8 0 0 0 0])
+  ("nextLine" .
+   [3 0 0 0 0 0 0 0])
+  ("record" .
+   [1 0 0 0 0 0])
+  ("recursivePrint" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0])
+  ("s" .
+   [8])
+  ("null" .
+   [9 0 0 0])
+  ("split" .
+   [6 0 0 0 0])
+  ("year" .
+   [1 0 0 0])
+  ("ranking" .
+   [1 0 0 0 0 0 0])
+  ("S" .
+   [3])
+  ("convertPop" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("CityDatabase2" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("filename" .
+   [3 0 0 0 0 0 0 0])
+  ("n" .
+   [8])
+  ("File" .
+   [7 0 0 0])
+  ("numYears" .
+   [4 0 0 0 0 0 0 0])
+  ("readArray" .
+   [2 0 0 0 0 0 0 0 0])
+  ("data" .
+   [30 0 0 0])
+  ("NUM_CITIES_PER_YEAR" .
+   [1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FileNotFoundException" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("headerYears" .
+   [1 0 0 0 0 0 0 0 1 0 0])
+  ("fields" .
+   [5 0 0 0 0 0])
+  ("printDatabase" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("rankings" .
+   [1 0 0 0 0 0 0 0])
+  ("Card" .
+   [7 0 0 1])
+  ("RANK_NAMES" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("SUIT_NAMES" .
+   [4 0 0 0 0 0 0 1 0 1])
+  ("SUIT_ABBREVS" .
+   [1 0 0 0 0 0 0 0 0 1 0 0])
+  ("getSuitNum" .
+   [3 0 0 0 0 1 0 1 1 6])
+  ("suit" .
+   [2 0 0 0])
+  ("rank" .
+   [11 0 0 0])
+  ("suitNum" .
+   [8 0 0 0 0 1 1])
+  ("suitStr" .
+   [1 0 0 0 0 0 0])
+  ("setSuitNum" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("setRank" .
+   [2 0 0 0 0 0 0])
+  ("IllegalArgumentException" .
+   [0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SUIT_" .
+   [0 0 0 0 1])
+  ("getRank" .
+   [6 0 0 0 0 0 1])
+  ("getSuitName" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("true" .
+   [25 0 0 0])
+  ("false" .
+   [16 0 0 0 0])
+  ("isFaceCard" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("other" .
+   [9 0 0 0 0])
+  ("RANK_ABBREVS" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("DEFAULT_MAX_SIZE" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ArrayBag" .
+   [4 0 0 0 1 3 1 0])
+  ("items" .
+   [8 0 0 0 0])
+  ("Object" .
+   [4 0 0 0 0 0])
+  ("maxSize" .
+   [0 0 0 0 1 0 0])
+  ("tokens" .
+   [24 0 0 0 0 0])
+  ("SyntaxError" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("read_from_tokens" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pop" .
+   [87 0 0])
+  ("boolea" .
+   [2 0 0 0 0 0])
+  ("leftStart" .
+   [0 0 0 0 0 0 2 1 0])
+  ("rightStart" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("leftEnd" .
+   [1 0 0 0 0 0 0])
+  ("rightEnd" .
+   [0 0 0 0 0 0 0 1])
+  ("temp" .
+   [5 0 0 0])
+  ("root" .
+   [8 0 0 0])
+  ("left" .
+   [8 0 0 0])
+  ("inorder" .
+   [1 0 0 0 0 0 0])
+  ("Postorder:" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("Info" .
+   [0 0 0 1])
+  ("getSize" .
+   [3 0 0 0 1 0 0])
+  ("test" .
+   [14 0 0 0])
+  ("array" .
+   [5 0 0 0 0])
+  ("size_t" .
+   [4 0 0 0 0 0])
+  ("binarySearch" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("NULL" .
+   [27 0 0 0])
+  ("toIns" .
+   [8 0 0 0 0])
+  ("printStack" .
+   [10 0 0 0 0 0 0 0 0 0])
+  ("trav" .
+   [26 0 0 0])
+  ("stdio" .
+   [5 0 0 0 0])
+  ("prev" .
+   [1 0 0 0])
+  ("createNewTree" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("expTree" .
+   [3 0 0 0 0 0 0])
+  ("tokenStack" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("Visualizer" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("This" .
+   [1 0 0 0])
+  ("defvar" .
+   [2 0 0 0 0 1])
+  ("defun" .
+   [2 0 0 0 0])
+  ("easy-jekyll-basedir" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("easy-jekyll" .
+   [0 0 0 0 0 2 0 0 0 0 1])
+  ("global-map" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("message" .
+   [41 0 0 1 0 0 0])
+  ("shift" .
+   [33 0 0 0 0])
+  ("caesarDecode" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("encode" .
+   [5 0 0 0 0 0])
+  ("key" .
+   [7 0 0])
+  ("strlen" .
+   [8 0 0 0 0 0])
+  ("msgLen" .
+   [2 0 0 0 0 0])
+  ("caesarEncode" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("keyLen" .
+   [4 0 0 0 0 0])
+  ("argv" .
+   [21 0 0 0])
+  ("decode" .
+   [15 0 0 0 0 0])
+  ("strcmp" .
+   [2 0 0 0 0 0])
+  ("decodeChar" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("encodeChar" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("wrapMod" .
+   [1 0 0 0 0 0 0])
+  ("fp" .
+   [6 0])
+  ("fseek" .
+   [3 0 0 0 0])
+  ("buffer" .
+   [21 0 0 0 0 0])
+  ("fileSize" .
+   [2 0 0 0 0 0 0 0])
+  ("fclose" .
+   [1 0 0 0 0 0])
+  ("fputs" .
+   [1 0 0 0 0])
+  ("formatBuffer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("newFile" .
+   [1 0 0 0 0 0 0])
+  ("strcat" .
+   [3 0 0 0 0 0])
+  ("newFileName" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("Puzzle" .
+   [17 0 0 0 0 0])
+  ("loadPuzzle" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("isFixed" .
+   [5 0 0 5 0 4 0])
+  ("subgridHasVal" .
+   [1 0 0 2 0 1 1 1 2 1 2 1 3])
+  ("colHasVal" .
+   [3 0 0 0 0 1 6 0 0])
+  ("rowHasval" .
+   [0 0 0 2 0 0 0 0 1])
+  ("memset" .
+   [5 0 0 0 0 0])
+  ("subgrids" .
+   [0 0 0 0 0 0 0 1])
+  ("FILE" .
+   [3 0 0 0])
+  ("pBuffer" .
+   [9 0 1 0 0 0 0])
+  ("testBuff" .
+   [3 0 0 0 0 0 0 0])
+  ("DEFAULT_FILESIZE" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("putchar" .
+   [15 0 0 0 0 0 0])
+  ("col" .
+   [82 0 0])
+  ("puzzleValue" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("row" .
+   [87 0 0])
+  ("puzzleVal" .
+   [2 0 0 0 0 0 0 0 0])
+  ("DIM" .
+   [25 0 0])
+  ("puzzle" .
+   [1 0 0 0 0 0])
+  ("SUBGRID_DIM" .
+   [1 0 0 15 1 1 0 0 0 0 0])
+  ("solvePuzzle" .
+   [4 0 0 0 0 0 2 1 0 0 4])
+  ("isSafe" .
+   [9 0 0 0 0 0])
+  ("placeVal" .
+   [4 0 0 0 0 2 1 0])
+  ("removeVal" .
+   [1 0 0 0 0 0 2 0 0])
+  ("WRAPPER_Solve" .
+   [2 0 0 0 0 4 1 3 0 0 0 0 0])
+  ("printPuzzle" .
+   [8 0 0 0 0 0 0 1 0 0 0])
+  ("rowHasVal" .
+   [1 0 0 0 1 0 0 0 0])
+  ("result" .
+   [46 0 0 0 0 0])
+  ("FILESIZE" .
+   [4 0 0 0 0 0 0 0])
+  ("powerline" .
+   [1 0 0 0 0 0 0 0 0])
+  ("powerline-default-theme" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("STACK" .
+   [0 0 0 0 1])
+  ("top" .
+   [7 0 0])
+  ("createNode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("createStack" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("stdlib" .
+   [2 0 0 0 0 0])
+  ("equation" .
+   [1 0 0 0 0 0 0 0])
+  ("infix" .
+   [12 0 0 0 0])
+  ("shunting" .
+   [0 0 0 0 0 0 0 3])
+  ("testInput" .
+   [1 0 0 0 0 0 1 0 0])
+  ("Queue" .
+   [3 0 0 0 0])
+  ("createQueue" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("enqueue" .
+   [1 0 0 0 0 0 0])
+  ("outputQ" .
+   [1 0 0 0 0 0 0])
+  ("operatorStack" .
+   [0 0 1 0 1 1 2 0 0 0 0 0 0])
+  ("S_isEmpty" .
+   [0 0 0 0 1 0 0 0 0])
+  ("outputString" .
+   [6 0 0 0 0 0 0 0 0 0 0 1])
+  ("outputStr" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ctype" .
+   [2 0 0 0 0])
+  ("strtok" .
+   [5 0 0 0 0 0])
+  ("res" .
+   [2 0 0])
+  ("pch" .
+   [4 0 0])
+  ("fsize" .
+   [3 0 0 0 0])
+  ("loadFile" .
+   [2 0 0 0 0 0 0 0])
+  ("package-install-selected-packages" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("package-check-signature" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("nextc" .
+   [5 0 0 0 0])
+  ("nextch" .
+   [3 0 0 0 0 0])
+  ("sort" .
+   [3 0 0 0])
+  ("include" .
+   [0 0 0 0 0 1 0])
+  ("translate" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prints" .
+   [1 0 0 0 0 0])
+  ("arguments" .
+   [1 0 0 0 0 0 0 0 0])
+  ("sep" .
+   [3 0 0])
+  ("os" .
+   [1 0])
+  ("Args" .
+   [1 0 0 0])
+  ("fmt" .
+   [2 0 0])
+  ("Println" .
+   [2 0 0 0 0 0 0])
+  ("COMMON_C" .
+   [1 0 0 0 0 0 0 0])
+  ("swap" .
+   [6 0 0 0])
+  ("insertionSort" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("printArray" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("LEN" .
+   [9 0 1])
+  ("INSERTION" .
+   [2 0 0 0 0 0 0 0 0])
+  ("generateArray" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0])
+  ("libs" .
+   [1 0 0 0])
+  ("Insertion" .
+   [2 0 0 0 0 0 0 0 0])
+  ("Sort" .
+   [1 0 0 0])
+  ("BASIC_SORTS_C" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MACROS_H" .
+   [1 0 0 0 0 0 0 0])
+  ("MIN" .
+   [1 0 0])
+  ("lexer" .
+   [2 0 0 0 0])
+  ("offset" .
+   [1 0 0 0 0 0])
+  ("srcSize" .
+   [1 0 0 0 1 0 0])
+  ("src" .
+   [3 0 0])
+  ("Parser" .
+   [6 0 0 0 0 0])
+  ("TreeNode" .
+   [5 0 0 0 0 0 0 0])
+  ("initTreeNode" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("stringInput" .
+   [2 0 0 0 0 0 1 0 2 0 0])
+  ("postorderPrint" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("PREORDER" .
+   [0 0 0 0 0 1 0 0])
+  ("preorderPrint" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("n1" .
+   [3 0])
+  ("to" .
+   [1 0])
+  ("make" .
+   [1 0 0 0])
+  ("createTree" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("exTree" .
+   [1 0 0 0 0 0])
+  ("elements" .
+   [1 0 0 0 0 0 0 0])
+  ("Board" .
+   [7 0 0 0 0])
+  ("board_init" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("rows" .
+   [6 0 0 0])
+  ("cols" .
+   [5 0 0 0])
+  ("newBoard" .
+   [6 0 0 0 0 0 0 0])
+  ("Test.HUnit" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("fn2" .
+   [6 0 0])
+  ("putStr" .
+   [0 0 0 0 0 1])
+  ("fn3" .
+   [7 0 0])
+  ("fn1" .
+   [4 0 0])
+  ("square" .
+   [8 0 0 0 0 0])
+  ("fn4" .
+   [1 0 0])))
